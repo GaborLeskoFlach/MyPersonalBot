@@ -31,5 +31,5 @@ server.post('/api/messages', connector.listen());
 // Create your bot with a function to receive messages from the user
 var bot = new builder.UniversalBot(connector, function (session) {
     //session.send("Nuke them, nuke them all!!!.....more to come, still busy learning how the world works.")
-    session.say("Nuke them, nuke them all!!!.....more to come, still busy learning how the world works.", "Hello Susanna, how are you. I hope you had a really nice day. Next time please get off at Ringwood East station.")
+    session.say("Nuke them, nuke them all!!!.....more to come, still busy learning how the world works.", "Hello Susanna, how are you. I hope you had a really nice day. Next time please get off at Ringwood East station. Love you honey, kiss kiss.")
 });
